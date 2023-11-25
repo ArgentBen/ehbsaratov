@@ -1,0 +1,63 @@
+@media screen and (max-width: 1700px){
+     .img-fon{
+          margin-top: calc(var(--index) *7.1);
+     }
+
+     /* page two */
+
+     .Block{
+          margin: calc(var(--index) *1) calc(var(--index) *2.2);
+     }
+
+     /* page Tree  */
+     .block-contact{
+          width: calc(var(--index) *15);
+          height: calc(var(--index) *14);
+          margin-top: calc(var(--index) *2);
+
+     }
+     
+     .content-3{
+          padding: calc(var(--index) *1);
+
+          width: calc(var(--index) *15);
+          height: calc(var(--index) *14);
+     }
+
+     #Name-1, #Name-2, #Name-3{
+          padding-top: calc(var(--index) *0.3);
+     }
+
+     .content-3 p{
+          font-size: calc(var(--index) *0.6);
+          line-height: calc(var(--index) *0.7);
+     }
+
+     .block-contact:hover .content-back{
+          transform: translateY(calc(var(--index) *10));
+          opacity: 1;
+     }
+
+
+     .content-back{
+          transform: translateY(calc(var(--index) *15));
+     }
+
+     .hr-line{
+          margin-top: calc(var(--index) *1.5);
+     }
+     .hr-line1{
+          margin-top: calc(var(--index) *1.5);
+     } 
+
+
+
+
+     /* Footer */
+
+     .Map{
+          width: calc(var(--index) *23);
+          max-height: calc(var(--index) *9);
+          margin-top:calc(var(--index) *0.8);margin-bottom: calc(var(--index) *0.9);margin-right: calc(var(--index) *3);
+     }
+}

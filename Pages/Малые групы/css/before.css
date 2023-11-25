@@ -1,0 +1,98 @@
+@import "/css/reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700;800;900&display=swap');
+
+
+:root {
+     --clr-1: #052b2f;
+     --clr-2: #073438;
+     --clr-3: #000000;
+     --clr-4: rgb(0, 0, 0);
+     --clr-5: #000000;
+}
+
+:root{
+     --index: calc(1vw + 1vh);
+     --transition: transform .75s ease;
+}
+
+
+
+body{
+     font-family: 'Comfortaa', sans-serif;
+     max-width: 1920px;
+     color: white;
+     margin: 0 auto; 
+     background: #141F24;
+}
+
+
+.container{
+     max-width: 1440px;
+     padding: 0 100px;
+     margin: 0 auto;
+     position: relative;
+     height: 100%;
+}
+/*Header*/
+
+.header{
+     background-color: #302e2e6c;
+     backdrop-filter: blur(7px);
+     padding: calc(var(--index) *0.8) 0;
+}
+
+.header-nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+
+.logo{
+     position: relative;
+     font-weight:900;
+     font-size: calc(var(--index) *1);
+     color: white;
+     align-items: center;
+     padding-left: calc(var(--index) *0.8);
+
+}
+
+.logo::after{
+     content: "✝";
+     font-size: calc(var(--index) *1.3);
+     position: absolute;
+     right: calc(var(--index) *7.4);
+     bottom: calc(var(--index) *-0.07);
+     display: block;
+}
+
+.nav-list{
+     display: flex;
+     column-gap: 40px;
+     font-weight: 500;
+     font-size: calc(var(--index) /1.8);
+}
+
+.nav-link{
+     color: #898D92;
+}
+
+.Small-group{
+
+     margin-top: calc(var(--index) *1.8);
+}
+.backgraund-group{
+     background: #233942;
+     border-radius: 10px;
+     padding: calc(var(--index) /1.8);
+}
+
+.backgraund-group h2{
+     font-size: 50px;
+}
+
+.backgraund-group h3{
+     font-size: 25px;
+     margin-top: calc(var(--index) *1.5);
+}
